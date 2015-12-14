@@ -1,0 +1,66 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(55,55,55);
+}
+
+
+.googlemark{
+    position: relative;
+    height: 100%;
+    width: 80px;
+    background-color: rgb(242, 108, 79);
+    float: left;
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nexabold, Arial, Helvetica, "Open Sans", sans-serif;
+
+}
+.googlemark::after{
+    content: '.';
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    border: 20px solid transparent;
+    border-left-color: rgb(242, 108, 79);
+    position: absolute;
+
+    top: 50%;
+    margin-top: -20px;
+    right: -33px;
+}
+.headerwrapper{
+    width: 940px;
+    height: 100%;
+
+}
+
+.goodink{
+    color:#ffffff;
+    line-height: 69px;
+    margin-left: 30px;
+    font-family:  Arial, Helvetica, "Open Sans", sans-serif;
+    font-size: 25px;
+}
+.formheader{
+    display: inline-block;
+    position: relative;
+    float: right;
+    line-height: 70px;
+    padding-left: 21px;
+}
+.formheader .inp{
+
+    height: 36px;
+    font-family:  Arial, Helvetica, "Open Sans", sans-serif;
+    text-align: center;
+}
+.formheader .widthnews{
+    width: 179px;
+}
+.formheader .widthcont{
+    width: 145px;
+}
