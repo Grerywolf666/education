@@ -56,11 +56,15 @@
 
     height: 36px;
     font-family:  Arial, Helvetica, "Open Sans", sans-serif;
-    text-align: center;
 }
 .formheader .widthnews{
-    width: 179px;
+    width: 139px;
+    padding-left: 40px;
+    background: url(../../../img/map_pin.png) #ffffff no-repeat left 7% center;
 }
 .formheader .widthcont{
-    width: 145px;
+    width: 105px;
+    padding-left: 40px;
+    background: url(../../../img/clock%20.png) #ffffff no-repeat left 7% center;
+
 }

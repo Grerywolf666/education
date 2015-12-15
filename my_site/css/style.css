@@ -1,6 +1,6 @@
-@import url(sources/reset.css);
-@import url(sources/header/main.css);
-
+@import "sources/reset.css";
+@import "sources/header/main.css";
+@import "sources/navigation/main.css";
 body{
     background-color: rgb(235, 235, 235);
 
@@ -16,12 +16,7 @@ body{
 .center {
     margin: 0 auto;
 }
-.navigation{
-    width: 940px;
-    height: 70px;
-    background-color: rgb(71,71,71);
 
-}
 .topslider{
     height: 390px;
     background-color: blue;
